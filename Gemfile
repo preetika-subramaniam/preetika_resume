@@ -66,5 +66,5 @@ group :production do
   gem 'pg'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.3.1'
 gem 'rails-ujs', '~> 0.1.0'
