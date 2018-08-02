@@ -6,4 +6,8 @@ Rails.application.routes.draw do
   get 'dashboard/home', to: 'dashboard#home'
   get 'dashboard/about', to: 'dashboard#about'
 
+  resources :users 
+  resources :experiences
+  resources :skills
+
 end
