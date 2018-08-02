@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_30_180954) do
+ActiveRecord::Schema.define(version: 2018_08_02_144636) do
 
   create_table "experiences", force: :cascade do |t|
     t.date "from"
@@ -36,6 +36,26 @@ ActiveRecord::Schema.define(version: 2018_07_30_180954) do
     t.integer "skill_topic_id"
     t.text "link"
     t.integer "user_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "first_name"
+    t.string "middle_name"
+    t.string "last_name"
+    t.text "summary"
+    t.string "email"
+    t.string "mobile"
+    t.text "address"
+    t.string "github_text"
+    t.text "github_link"
+    t.string "twitter_text"
+    t.text "twitter_link"
+    t.string "fb_link"
+    t.text "fb_text"
+    t.string "so_text"
+    t.text "so_link"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
