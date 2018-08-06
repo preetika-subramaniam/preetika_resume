@@ -5,11 +5,18 @@ $navbar-default-bg: #3068b7;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+ }
+ 
+ .navbar li { color: #000 }
 
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #fdfcfc;
+    color: #12a837;
     font-weight: bold;
 }
 
