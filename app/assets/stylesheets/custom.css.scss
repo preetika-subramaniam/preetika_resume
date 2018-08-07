@@ -16,7 +16,7 @@ $navbar-default-bg: #3068b7;
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #12a837;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -25,13 +25,17 @@ $navbar-default-bg: #3068b7;
     text-decoration: none;
 }
 
+#para {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 #all-others {
     font-size: 1em;
-    color: #fdfcfc;
+    color: #ffffff;
 }
 
 #all-others:hover {
-    color: #0d0e0d;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -68,7 +72,7 @@ body {
     height: 100%;
     background: #000;
     opacity: 0.3;
-    transition: all 0.2s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 
@@ -80,6 +84,10 @@ h1,h2,h3,h4 {
 
 .super-heading {
     font-size: 70px; 
+}
+
+.super-interim {
+    font-size: 50px; 
 }
 
 
