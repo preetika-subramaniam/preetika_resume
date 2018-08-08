@@ -1,10 +1,24 @@
 class ExperiencesController < ApplicationController
     protect_from_forgery
-    before_action :set_experience, only: [:show, :edit, :update, :destroy]
-
 
     def index
-        @experiences = Experience.all
+        #@experience = Experience.all
+    end
+    
+    def show
+        #@experience = Experience.find(params[:id])
+    end
+    
+    def new
+        #@experience = Experience.new
+    end
+
+    def create
+
+    end
+    
+      def edit
       end
 
-end
+
+    end

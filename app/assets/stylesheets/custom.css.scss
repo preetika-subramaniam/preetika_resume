@@ -39,8 +39,17 @@ $navbar-default-bg: #3068b7;
     text-decoration: none;
 }
 
+.body-content {
+    margin-top:50px; margin-bottom:10px; font-size:50px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.checkbox {
+    font-size: 1.7em;
+
 }
 
 /* carousel fullscreen */
@@ -179,18 +188,22 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
     padding-top: 7px;
     border-radius: 50%;
 }
+
+ .click{
+    cursor: pointer
+ }
  .footer-social li{
      float:left;
  }
  .linked-in{
      background-color:#007bb6;
  }
- .facebook{
-     background-color:#3b5998;
+ .github{
+     background-color:#333;
  }
- .twitter{
-     background-color:#1da1f2;
+ .stack-overflow{
+     background-color:#f48024;
  }
- .google{
+ .coursera{
      background-color:#f63e28;
  }
