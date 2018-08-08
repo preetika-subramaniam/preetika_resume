@@ -16,7 +16,7 @@ $navbar-default-bg: #3068b7;
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #12a837;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -25,18 +25,31 @@ $navbar-default-bg: #3068b7;
     text-decoration: none;
 }
 
+#para {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 #all-others {
     font-size: 1em;
-    color: #fdfcfc;
+    color: #ffffff;
 }
 
 #all-others:hover {
-    color: #0d0e0d;
+    color: #ffffff;
     text-decoration: none;
+}
+
+.body-content {
+    margin-top:50px; margin-bottom:10px; font-size:50px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.checkbox {
+    font-size: 1.7em;
+
 }
 
 /* carousel fullscreen */
@@ -68,7 +81,7 @@ body {
     height: 100%;
     background: #000;
     opacity: 0.3;
-    transition: all 0.2s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 
@@ -80,6 +93,10 @@ h1,h2,h3,h4 {
 
 .super-heading {
     font-size: 70px; 
+}
+
+.super-interim {
+    font-size: 50px; 
 }
 
 
@@ -171,18 +188,22 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
     padding-top: 7px;
     border-radius: 50%;
 }
+
+ .click{
+    cursor: pointer
+ }
  .footer-social li{
      float:left;
  }
  .linked-in{
      background-color:#007bb6;
  }
- .facebook{
-     background-color:#3b5998;
+ .github{
+     background-color:#333;
  }
- .twitter{
-     background-color:#1da1f2;
+ .stack-overflow{
+     background-color:#f48024;
  }
- .google{
+ .coursera{
      background-color:#f63e28;
  }
